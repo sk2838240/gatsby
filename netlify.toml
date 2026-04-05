@@ -4,3 +4,4 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  SHARP_IGNORE_GLOBAL_LIBVIPS = "1"
