@@ -99,6 +99,9 @@
   "overrides": {
     "sharp": "0.31.3"
   },
+  "optionalDependencies": {
+    "node-sass": false
+  },
   "lint-staged": {
     "linters": {
       "**/*.js": [
