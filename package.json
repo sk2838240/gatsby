@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "blog-static",
   "description": "Calpa's Blog",
   "version": "1.0.0",
   "author": "Calpa Liu <calpaliu@gmail.com>",
@@ -48,16 +48,12 @@
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.5.2",
     "rimraf": "^2.6.2",
-    "sharp": "0.31.3",
     "smooth-scroll": "^16.0.0",
     "webpack": "^4.19.0"
   },
   "keywords": [
-    "gatsby"
+    "blog"
   ],
-  "overrides": {
-    "sharp": "0.31.3"
-  },
   "license": "MIT",
   "main": "n/a",
   "husky": {
