@@ -1,9 +1,6 @@
 [build]
   publish = "public"
-  command = "yarn install --ignore-engines && yarn build"
+  command = "rm -rf .netlify && npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
-
-[install]
-  packageManager = "yarn"
