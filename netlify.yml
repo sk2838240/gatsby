@@ -1,9 +1,4 @@
 build:
-  publish: public
-  command: npm run build
+  command: echo "Skip default install" && npm run build
   environment:
     NODE_VERSION: "18"
-
-plugins:
-  - package: "@netlify/plugin-gatsby"
-    enabled: false

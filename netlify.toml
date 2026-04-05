@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "rm -rf .netlify && npm run build"
+  command = "echo '{\"name\":\"fake\",\"version\":\"1.0.0\"}' > .netlify/plugins/package.json && npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
